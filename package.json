@@ -25,6 +25,9 @@
     "i18n:download": "i18n download"
   },
   "dependencies": {
+    "@andes/button": "7.27.0",
+    "@andes/form": "7.27.0",
+    "@andes/textfield": "7.27.0",
     "nordic": "^7.12.1"
   },
   "devDependencies": {

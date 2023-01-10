@@ -1,0 +1,17 @@
+// imports de todos los componentes que mostraré en esta page
+// estilos de la página en si
+$demo-font-size: 1rem;
+$demo-color-gray: #666;
+$demo-color-lightgray: #d3d3d3;
+
+@import '~@andes/form/index';
+@import '@andes/textfield/index';
+@import '~@andes/button/index';
+
+.vipContainer {
+  font-size: $demo-font-size;
+  color: $demo-color-gray;
+  padding: 5em;
+  margin: 0 auto;
+  max-width: 800px;
+}
