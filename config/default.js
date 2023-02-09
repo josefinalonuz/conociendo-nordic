@@ -1,6 +1,7 @@
 module.exports = {
   ragnar: {
     basePath: '/',
+    apiBasePath: '/vip/cosa  ',
     server: {
       port: 8080,
       securePort: 8443,

@@ -8,7 +8,7 @@ const I18n = require('nordic/i18n');
 const I18nProvider = require('nordic/i18n/I18nProvider');
 const ImageProvider = require('nordic/image/provider');
  
-export function View (View) {
+const View = (View) => {
   /**
   * Get server state
   */
@@ -49,4 +49,4 @@ export function View (View) {
 }
  
  
- 
+ module.exports = View;
